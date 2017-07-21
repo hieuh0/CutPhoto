@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cropimage.activities.PreviewCutPhoto">
+   <TextView
+       android:id="@+id/textview"
+       android:textStyle="bold"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+    <SeekBar
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <com.example.cropimage.widget.Panel
+    android:layout_gravity="center"
+    android:id="@+id/previewcut"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+</LinearLayout>
